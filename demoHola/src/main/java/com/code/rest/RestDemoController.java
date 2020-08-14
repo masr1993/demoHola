@@ -35,7 +35,6 @@ public class RestDemoController {
 		repo.save(per);
 	}
 	
-
 	@PutMapping
 	public void modificar(Persona per){
 		repo.save(per);
